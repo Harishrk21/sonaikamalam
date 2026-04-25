@@ -1,0 +1,23 @@
+.tagline-bar {
+  background: linear-gradient(90deg, var(--color-gold-dim) 0%, #fff8e6 50%, var(--color-gold-dim) 100%);
+  border-bottom: 1px solid var(--color-gold);
+  padding: 0.65rem 1.25rem;
+  text-align: center;
+}
+
+.tagline-bar__text {
+  margin: 0;
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  font-weight: 600;
+  color: var(--color-navy);
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .tagline-bar__text {
+    font-size: 0.75rem;
+  }
+}

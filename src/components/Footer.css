@@ -1,0 +1,78 @@
+.site-footer {
+  background: linear-gradient(180deg, #081d38 0%, #06152a 100%);
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: auto;
+  padding: 2.75rem 1.25rem 2rem;
+}
+
+.site-footer__inner {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-footer__name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+  color: #fff;
+}
+
+.site-footer__op {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.site-footer__statement {
+  font-size: 0.82rem;
+  line-height: 1.55;
+  margin: 0 auto 1.25rem;
+  color: #fff0c4;
+  font-weight: 600;
+  max-width: 40rem;
+}
+
+.site-footer__ids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+  font-size: 0.82rem;
+  margin-bottom: 1.4rem;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.site-footer__label {
+  color: var(--color-gold);
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.site-footer__legal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+}
+
+.site-footer__legal a {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-footer__legal a:hover,
+.site-footer__legal a:focus-visible {
+  color: var(--color-gold);
+  outline: none;
+}
+
+.site-footer__copy {
+  margin: 0;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.58);
+}
